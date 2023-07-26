@@ -7,7 +7,7 @@ poppler_path = r"..\Release-23.07.0-0\poppler-23.07.0\Library\bin"
 # set yourself
 working_path = r"<>"
 
-#place filename here
+#place filename already inside the working_path that you want to convert
 filename = r"<>"
 filepath = os.path.join(working_path, filename)
 filename_extensionless = os.path.splitext(str(filename))[0]

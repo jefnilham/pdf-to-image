@@ -1,8 +1,8 @@
 import os 
 from pdf2image import convert_from_path
 
-# download from https://github.com/oschwartz10612/poppler-windows/releases/, unzip, and copy this bin path
-poppler_path = r"C:\Users\Downloads\Release-23.07.0-0\poppler-23.07.0\Library\bin"
+# download from https://github.com/oschwartz10612/poppler-windows/releases/, unzip, and copy this bin path from ur own machine
+poppler_path = r"..\Release-23.07.0-0\poppler-23.07.0\Library\bin"
 
 # set yourself
 working_path = r"<>"
